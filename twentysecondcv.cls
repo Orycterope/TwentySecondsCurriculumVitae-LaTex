@@ -169,11 +169,11 @@
 \end{flushright}
 \renewcommand{\arraystretch}{1.6}
 \begin{tabular}{p{0.5cm} @{\hskip 0.5cm}p{5cm}}
-\ifthenelse{\equal{\givencvdate}{}}{}{\textsc{\Large\icon{\Info}} & \givencvdate\\}
-\ifthenelse{\equal{\givencvaddress}{}}{}{\textsc{\Large\icon{\Letter}} & \givencvaddress\\}
-\ifthenelse{\equal{\givennumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \givennumberphone\\}
-\ifthenelse{\equal{\givencvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\givencvmail}{\givencvmail}}\\
-\ifthenelse{\equal{\givencvsite}{}}{}{\textsc{\Large\icon{\faGithub}} & \href{https://\givencvsite}{\textcolor{cerulean}\givencvsite}}
+\ifthenelse{\equal{\givencvdate}{}}{}{\textsc{\large\icon{\faBirthdayCake}} & \givencvdate\\}
+\ifthenelse{\equal{\givencvaddress}{}}{}{\textsc{\large\icon{\faEnvelope}} & \givencvaddress\\}
+\ifthenelse{\equal{\givennumberphone}{}}{}{\textsc{\large\icon{\faPhone}} & \givennumberphone\\}
+\ifthenelse{\equal{\givencvmail}{}}{}{\textsc{\large\icon{\faAt}} & \href{mailto:\givencvmail}{\givencvmail}}\\
+\ifthenelse{\equal{\givencvsite}{}}{}{\textsc{\large\icon{\faGithub}} & \href{https://\givencvsite}{\textcolor{cerulean}\givencvsite}}
 \end{tabular}
 
 
