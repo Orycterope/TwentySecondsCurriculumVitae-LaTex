@@ -93,6 +93,8 @@
 \newcommand{\cvname}[1]{\renewcommand{\givencvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\givencvjobtitle}{#1}}
 
+\newcommand{\languages}[1]{\renewcommand{\givenlanguages}{  \justifying#1}}
+
 \newcommand{\givencvname}{REQUIRED!}
 \newcommand{\givencvdate}{}
 \newcommand{\givencvmail}{}
@@ -102,6 +104,8 @@
 \newcommand{\givenprofilepic}{}
 \newcommand{\givencvsite}{}
 \newcommand{\givencvjobtitle}{}
+
+\newcommand{\givenlanguages}{}
 
 
 
@@ -181,7 +185,7 @@
 \givenaboutme
 
 
-\profilesection{Compétences}{2.0cm}
+\profilesection{Compétences}{1.9cm}
 \givenskill
 \giventextskill
 \noindent
@@ -190,6 +194,10 @@
 (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
 
 \end{flushleft}
+
+\profilesection{Langues}{3.6cm}
+\givenlanguages
+
 \end{textblock}
 \vspace{-10pt}
  }
