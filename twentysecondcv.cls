@@ -177,11 +177,11 @@
 \end{tabular}
 
 
-\profilesection{About me}{3.2cm}
+\profilesection{Présentation}{2.2cm}
 \givenaboutme
 
 
-\profilesection{Skill}{5cm}
+\profilesection{Compétences}{2.0cm}
 \givenskill
 \giventextskill
 \noindent
