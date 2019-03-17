@@ -226,7 +226,7 @@
 \renewcommand{\section}[1]{
   \par%\vspace{\parskip}
   {%
-    \LARGE\color{headercolor}%
+    \LARGE\color{headercolor}\hspace*{.2cm}%
     \@sectioncolor [#1]%
   }
   \par\vspace{\parskip}
