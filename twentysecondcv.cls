@@ -213,11 +213,11 @@
   {%
    \round{#1}{
       \ifcase\value{colorCounter}%
-        maingray\or%
         mainblue\or%
         maingray\or%
-        mainblue\else%
-        maingray\fi%
+        mainblue\or%
+        maingray\else%
+        mainblue\fi%
     }%
   }%
   \stepcounter{colorCounter}%
