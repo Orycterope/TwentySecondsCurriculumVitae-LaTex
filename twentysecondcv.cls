@@ -268,7 +268,10 @@
   \hspace{5pt}#1&\parbox[t]{11.5cm}{%
     \textbf{#2}%
   }\\}
-
+\newcommand{\twentyitemshortright}[2]{%
+  \makebox[2cm][r]{#1}&\parbox[t]{11.5cm}{%
+    \textbf{#2}%
+  }\\}
 
 %%%%%%%%%%%%
 % Page Setting %
