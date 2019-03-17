@@ -209,9 +209,9 @@
 % Section Color box %
 %%%%%%%%%%%%%%%%
 \newcounter{colorCounter}
-\def\@sectioncolor#1#2#3{%
+\def\@sectioncolor[#1]{%
   {%
-   \round{#1#2#3}{
+   \round{#1}{
       \ifcase\value{colorCounter}%
         maingray\or%
         mainblue\or%
@@ -227,7 +227,7 @@
   \par%\vspace{\parskip}
   {%
     \LARGE\color{headercolor}%
-    \@sectioncolor #1%
+    \@sectioncolor [#1]%
   }
   \par\vspace{\parskip}
 }
