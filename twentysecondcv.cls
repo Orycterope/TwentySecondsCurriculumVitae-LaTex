@@ -191,7 +191,7 @@
 \noindent
 \scriptsize
 \noindent
-(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
+L'échelle va de 0 (connaissances élémentaires) à 6 (Expert).
 
 \end{flushleft}
 
