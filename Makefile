@@ -1,7 +1,7 @@
 # Makefile twentyseconds cv
 
 files_tex = $(wildcard *.tex)
-cv_name = "Twenty-Seconds_cv"
+cv_name = "cv_thomas_vermeilh"
 all: pdf
 	echo "Done!"
 pdf: *.tex

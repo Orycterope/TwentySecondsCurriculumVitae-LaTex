@@ -10,28 +10,48 @@
 %%PERSONAL INFO%%%
 %%%%%%%%%%%%%%%%
 
-\profilepic{alice.jpeg} %path of profile pic
-\cvname{Alice} %your name
-\cvjobtitle{Adventurer}%your actual job position
-\cvdate{26 November 1865}%date of birth
-\cvaddress{United Kingdom}%address
-\cvnumberphone{+39 0325658974}%telphone number
-\cvmail{alice@wonderland.com}%e-mail
-\cvsite{http://en.wikipedia.org}%personal site
+\profilepic{picture.jpg} %path of profile pic
+\cvname{Thomas Vermeilh} %your name
+\cvjobtitle{Développeur}%your actual job position
+\cvdate{25 Juin 1997}%date of birth
+\cvaddress{33 allée JB Carpeaux, \hfill \break 95120 Ermont}%address
+\cvnumberphone{+33 613201629}%telphone number
+\cvsite{github.com/Orycterope}%personal site
+\cvmail{thomas.vermeilh@gmail.com}%e-mail
 
 
 \aboutme{
-Alice is a sensible prepubescent girl from a wealthy English family who finds herself in a strange world ruled by imagination and fantasy. Alice feels comfortable with her identity and has a strong sense that her environment is comprised of clear, logical, and consistent rules and features. Alice's familiarity with the world has led one critic to describe her as a "disembodied intellect". Alice displays great curiosity and attempts to fit her diverse experiences into a clear understanding of the world.}%About me section
+Développeur passionné, autonome et sérieux, motivé par la volonté de comprendre le monde
+qui m’entoure et à la recherche d’occasions pour concrétiser mes connaissances. Je me suis
+familiarisé à la programmation en autodidacte dès mes 15 ans et depuis j’ai continué à explorer
+cet univers de plus en plus profondément tout en restant attentif aux nouvelles technologies.
+
+}%About me section
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%Skill bar section, each skill must have a value between 0 an 6 (float)%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\skills{{pursuer of rabbits/5.8},{good manners/4},{outgoing/4.3},{polite/4},{Java/0.01}}
+\skills{{Git/5},{Unix/4.5}, {Windows/2}, {Shell/4.5},{Rust/5},{C/5.5}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%Skill text section, each skill must have a value between 0 an 6%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\skillstext{{lovely/4},{narcissistic/3}}
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+\languages{
+	\\
+\begin{twentyshort}
+  \twentyitemshort
+    {Anglais}
+    {\emph{écrit et parlé couramment}}
+  \twentyitemshort
+    {Français}
+    {\emph{langue maternelle}}
+  \twentyitemshort
+    {Espagnol\hspace*{.5cm}}
+    {\emph{niveau lycée}}
+\end{twentyshort}
+}
 
 \makeprofile
 %%%%%%%%%%%%%%%%%%%%
@@ -45,10 +65,10 @@ Alice is a sensible prepubescent girl from a wealthy English family who finds he
 %%%%%%%%%%%%%%%%%%%%
 %%SIMPLE SECTION%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{interests}
-The heroine and the dreamer of Wonderland;  Alice is the principal character.
+\section{Profil}
+Développeur motivé et rigoureux à la recherche d'un poste dans le milieu de l'embarqué et du développement système, qui apprécie le travail en équipe. Formation out of the box qui me rend versatile et me permettra aussi de résoudre de nombreuses tâches satellites au projet.
 
-\section{education}
+\section{Education}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%TWENTY LIST ITEMS%%%%%%%%%%%%%%
@@ -56,25 +76,18 @@ The heroine and the dreamer of Wonderland;  Alice is the principal character.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{twenty}
   \twentyitem
-    {since 1865}
-    {Ph.D. {\normalfont candidate in Computer Science}}
-    {Wonderland}
-    {\emph{A Quantified Theory of Social Cohesion.}}
+    {2015-2019}
+    {École 42}
+    {Paris}
+    {
+		\emph{École d'informatique privée basée sur la pédagogie SOLE (Self Organized Learning Evironment) créée en 2013 par Xavier Niel.} \\
+		\href{https://cv.42.fr/tvermeil}{\textcolor{cerulean}{Profil étudiant}}
+	}
   \twentyitem
-    {1863-1865}
-    {M.Sc. magna cum laude}
-    {Wonderland}
-    {Majoring in Computer Science}
-  \twentyitem
-    {1861-1863}
-    {B.Sc. magna cum laude}
-    {Wonderland}
-    {Majoring in Computer Science}
-  \twentyitem
-    {1856-1861}
-    {High school}
-    {Wonderland}
-    {Specializing in mathematics and physics.}
+    {2015}
+    {Baccalauréat}
+    {Lycée Van Gogh, Ermont}
+    {\emph{Baccalauréat scientifique avec option informatique - Mention Bien}}
 \end{twenty}
 
 
@@ -82,62 +95,97 @@ The heroine and the dreamer of Wonderland;  Alice is the principal character.
 %%%%%%%%%TWENTY LIST SHORTITEMS%%%%%%%%%%%%%%
 %%% Two arguments: date; title/description %%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{publications}
+\section{Expérience Professionnelle}
 
 \begin{twentyshort}
-  \twentyitemshort
-    {1865}
-    {Chapter One, Down the Rabbit Hole.}
-  \twentyitemshort
-    {1865}
-    {Chapter Two, The Pool of Tears.}
-  \twentyitemshort
-    {1865}
-    {Chapter Three,  The Caucus Race and a Long Tale.}
-  \twentyitemshort
-    {1865}
-    {Chapter Four,  The Rabbit Sends a Little Bill.}
-  \twentyitemshort
-    {1865}
-    {Chapter Five,  Advice from a Caterpillar.}
+  \twentyitem
+    {2016-2017}
+    {\href{https://www.deewee.net/fr/}{\textcolor{cerulean}{DeeWee}}}
+    {Startup système embarqué}
+    {
+		Réalisation d'un driver usb pour imprimante de caisse sous Linux. \\
+		En charge de la mission de R\&D d'une solution man-in-the-middle,
+		pour intercepter et modifier les paquets en temps réel. \\
+		Intégration au cœur d'une petite équipe, forte cohésion et collaboration. \\
+		Méthodologie Agile Scrum.
+	}
 \end{twentyshort}
 
 
 
-\section{awards}
+\section{Technologies}
 
 \begin{twentyshort}
-  \twentyitemshort
-    {1987}
-    {All-Time Best Fantasy Novel.}
-  \twentyitemshort
-    {1998}
-    {All-Time Best Fantasy Novel before 1990.}
+  \twentyitemshortright
+    {Unix}
+    {Maitrise parfaite des environnements UNIX et du noyau Linux}
+  \twentyitemshortright
+    {C / ASM}
+    {GNU C Library, GDB, LLVM, ELF, Grub}
+  \twentyitemshortright
+    {POO}
+    {C++, Java, C\#, PHP, Python, Ocaml}
+  \twentyitemshortright
+    {Web}
+    {PHP, JavaScript, Nodejs, JQuery, HTML5, CSS3}
+  \twentyitemshortright
+    {CVS}
+    {Git, Github (projets Open Source)}
 \end{twentyshort}
 
 
-\section{experience}
+\section{Projets}
 
 \begin{twenty}
   \twentyitem
-    {1900}
-    {Alice in Wonderland-The Circra (1900's) Silent Film.}
-    {Film}
-    {The first Alice on film was over a hundred years ago.}
+    {\href{https://github.com/roblabla42/KFS/releases}{\textcolor{cerulean}{SunriseOS}}}
+    {Micro-kernel pour architectures x86 et aarch64 (ARM)}
+    {Rust}
+    {
+		Projet Open Source d'écriture et design d'un OS en partant de zéro. \\
+		Multitasking, multithreading, scheduler coopératif. \\
+		Inter-Process Communication layer et syscalls. \\
+		Implémentation de tous les drivers. \\
+		Équipe de 3 personnes, coordination sur \href{https://github.com/roblabla42/KFS/releases}{\textcolor{cerulean}{github}}.
+	}
   \twentyitem
-    {1933}
-    {Alice in Wonderland 1933 version.}
-    {Film}
-    {This film stars Ethel griffies and Charlotte Henry. It was a box office flop when it was released.}
+    {\href{https://github.com/orycterope/filesystem}{\textcolor{cerulean}{Filesystem}}}
+    {ext2 filesystem driver pour le noyau Linux}
+    {C}
+    {
+		Ré-implémentation du driver ext2 de Linux. \\
+		Écriture d'un module .ko se loadant dans le noyau Linux. \\
+		Manipulation des inodes/dossiers/superblocks et gestion des droits.
+	}
 \twentyitem
-    {1951}
-    {Disney Film.}
-    {Film}
-    {Walt Disney brings Lewis Carroll's fantasy story to life in this well done animated classic. Even though many elements from the book were dropped, such as the duchess with the baby pig and mock turtle, this version is without a doubt the most famous Alice adaption made.}
-
+    {\href{https://github.com/orycterope/process_and_memory}{\textcolor{cerulean}{Syscall}}}
+    {Ajout d'un syscall dans le noyau Linux}
+    {C}
+    {
+		Projet éducatif pour se familiariser avec la compilation et l'écriture de patchs pour le noyau Linux.
+	}
+\twentyitem
+    {\href{https://github.com/orycterope/libftasm}{\textcolor{cerulean}{LibftASM}}}
+    {Mini libc en assembleur}
+    {ASM}
+    {
+		Réécriture des fonctions principales de la libc sur x86\_64/MacOS X.
+	}
 \end{twenty}
-\section{other information}
-Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a “poky little house,” and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+\section{Intérets}
+
+\begin{twentyshort}
+  \twentyitemshortright
+    {\textsc{\icon{\faFlask}}}
+    {\emph{Grande passion et curiosité pour les sciences et nouvelles technologies, notamment la physique. Attentif au nouvelles découvertes faites dans le monde scientifique.}}
+  \twentyitemshortright
+    {\textsc{\icon{\faFutbolO}}}
+    {\emph{Plongée sous-marine (diplôme N.2), ski et escalade.}}
+  \twentyitemshortright
+    {\textsc{\icon{\faFilm}}}
+    {\emph{Science-fiction, et animation américaine.}}
+\end{twentyshort}
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%ENDBODY%%%%%%%%
